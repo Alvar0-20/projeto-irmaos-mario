@@ -5,9 +5,11 @@
 <br>
 <br>
 <h3>Abaixo imagens do site.</h3>
-<h4>imagens do site pelo celular</h4>
-<img src=/Mário/img/site-celular.png alt="imagem site celular">
-<h4>imagens do site pelo computador</h4>
-<img src=/Mário/img/site-pc.png alt="imagem site computador">
-<h4>imagens do site no menu</h4>
-<img src=/Mário/img/site-menu.png alt="imagem menu site">
+<h4>imagem do site pelo celular</h4>
+<img src="/Mário/img/site-celular.png" alt="imagem site celular">
+<h4>imagem do site no menu pelo celular</h4>
+<img src="/Mário/img/menu-celular.png" alt="imagem menu celular">
+<h4>imagem do site pelo computador</h4>
+<img src="/Mário/img/site-pc.png" alt="imagem site computador">
+<h4>imagem do site no menu</h4>
+<img src="/Mário/img/menu-pc.png" alt="imagem menu site">
