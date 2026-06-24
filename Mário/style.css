@@ -3,16 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .logo-mario {
   height: 200px;
 }
+
 .logo-mario-luigi {
   height: 500px;
   display: flex;
 }
+
 .icone-mario {
   height: 100px;
 }
+
 button {
   color: white;
   background-color: #C51111;
@@ -25,34 +29,41 @@ button {
   font-weight: bold;
   margin-top: 60px;
 }
+
 body {
   height: 100vh;
 }
+
 .caixa-mae {
   padding: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
 }
+
 p {
   color: white;
   font-size: 20px;
 }
+
 .caixa-principal {
   width: 40%;
 }
+
 .caixa-video {
   position: fixed;
   top: 0;
   z-index: -1;
 }
+
 video {
   min-height: 100%;
   min-width: 100%;
   position: fixed;
   top: 0;
 }
+
 .mascara {
   width: 100%;
   height: 100%;
@@ -60,6 +71,7 @@ video {
   position: fixed;
   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
+
 .logo-whatsapp img {
   height: 60px;
   position: fixed;
@@ -94,6 +106,7 @@ button:hover {
   background-color: #7CFC00;
   transition: 0.5s background-color ease-in-out;
 }
+
 .formulario {
   background-color: white;
   display: flex;
@@ -114,6 +127,7 @@ input {
   padding-left: 5px;
   outline-color: #18D80F;
 }
+
 textarea {
   height: 100px;
   width: 270px;
@@ -129,24 +143,80 @@ textarea {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(109deg, rgba(10, 12,16,0.99) 15%, rgba(10, 12,16,0.7) 50%, rgba(10, 12,16,0.99) 85%);
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
   transition: visibility 0.8s ease-in-out;
 }
 
-@media (max-width: 700px) {
+
+
+@media (max-width: 730px) {
   .caixa-principal {
     display: none;
   }
+
   .caixa-mae {
     flex-direction: column;
     padding: 10px;
   }
 
+  button {
+    border-radius: 20px;
+  }
 
 
 }
 
-/*
+@media (max-width: 848px) {
+  .logo-mario {
+    height: 150px;
+  }
+
+  .caixa-principal {
+    width: 90%;
+  }
+}
+
+@media (max-width: 897px) {
+  .caixa-principal {
+    width: 84%;
+  }
+
+  .logo-mario {
+    height: 250px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .header a {
+    font-size: 20px;
+  }
+
+  .formulario {
+    top: 20%;
+    left: -330px;
+  }
+
+  button {
+    margin-left: 30%;
+  }
+
+  .logo-whatsapp img {
+    height: 45px;
+    right: 43px;
+  }
+
+  .mascara-formulario {
+    height: 150vh;
+    width: 150vw;
+  }
+}
+
+
+  /*
 inicial:
 left:-300px;
 final:
